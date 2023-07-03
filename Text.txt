@@ -7,4 +7,4 @@
   - 4.sửa commit số 1 thành (edit text to new file)
   - 5.remove 2 nhưng vẫn giữ cái 3
   - 6. push code lên branch feature/task1  (remote)
-  - 7. tạo Pull request
+  - 7. tạo Pull request -- some changes others people creted here to make a conflic.
