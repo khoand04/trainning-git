@@ -3,8 +3,8 @@
 + tạo một file txt mới với nội dung text tuỳ ý (khoảng 3-5 dòng) rồi 
   - 1.add file mới vào staging are 
   - 2.commit file lên local (message commit nên có ý nghĩa ví dụ:  add text to new file)
-  - 3.add tiếp một file mới với text khác rồi commit
-  - 4.sửa commit số 1 thành (edit text to new file)
-  - 5.remove 2 nhưng vẫn giữ cái 3
-  - 6. push code lên branch feature/task1  (remote)
-  - 7. tạo Pull request
+  - 3.add tiếp một file mới với text khác rồi commit - some changes are made by someone
+  - 4.sửa commit số 1 thành (edit text to new file) - some changes are made by someone
+  - 5.remove 2 nhưng vẫn giữ cái 3 - some changes are made by someone
+  - 6. push code lên branch feature/task1  (remote) - some changes are made by someone
+  - 7. tạo Pull request - some changes are made by someone
