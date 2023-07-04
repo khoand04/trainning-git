@@ -10,7 +10,6 @@
 + tạo một file txt mới với nội dung text tuỳ ý (khoảng 3-5 dòng) rồi 
   - 1.add file mới vào staging are 
   - 2.commit file lên local (message commit nên có ý nghĩa ví dụ:  add text to new file)
-+ tạo một branch mới tên là feature/task3
-+ tạo một file txt mới với nội dung text tuỳ ý (khoảng 3-5 dòng) rồi 
+
 
   
