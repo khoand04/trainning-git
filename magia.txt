@@ -1,0 +1,13 @@
+
+FunctionPrePostfix(prefix String){
+	
+	stack=[]
+	Duyệt prefix từ phải sang trái 
+	if(toán hạng)
+		push stack
+	if(toán tử)
+		pop 2 toán hạng từ stack sử dụng toán tử để tính
+		sau đó đưa kết quả vào stack
+	pop toán hạng cuối trong stack 
+	return
+}
