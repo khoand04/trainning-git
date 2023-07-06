@@ -1,0 +1,7 @@
+function tinhgiaithua(m) {
+  let giaithua = 1;
+  for (let i = 1; i <= m; i++) {
+    giaithua = giaithua * i;
+  }
+  return giaithua;
+}
