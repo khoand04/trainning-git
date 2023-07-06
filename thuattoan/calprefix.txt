@@ -1,0 +1,34 @@
+function FunctionPrePostfix(prefix){
+  let stack = [];
+  let str =prefix.split('').reverse().join('');
+  str.split('').forEach(s => {
+
+  if (["1","2", "3", "4", "5", "6", "7","8","9"].includes(s.trim())){
+
+      stack.push(+s);
+    }
+    else if(["+", "-", "*", "/"].includes(s.trim())){
+
+      let x = stack.pop();
+      let y = stack.pop();
+      switch (s) {
+        case "+": y += x;
+          break;
+        case "-": y -= x;
+          break;
+        case "*": y *= x;
+          break;
+        case "/": y /= x;
+          break;
+        case "%": y %= x;
+          break;
+
+      }
+      stack.push(y);
+    
+    }
+  }) 
+  
+
+    return stack.pop();
+}
