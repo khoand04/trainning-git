@@ -1,56 +1,115 @@
 import React, { useState } from "react";
+import Button from "./components/Button";
+import Input from "./components/OutputScreen";
 import "./App.css";
 import './styleCal.css'
-import './components/Button.js'
-import Button from "./components/Button.js";
-import Input from "./components/OutputScreen.js";
 const App = () => {
+  const stack = [];
   const [text, setText] = useState("");
-  const [result, setResult] = useState("");  
+  const [result, setResult] = useState("");
 
-  
   const addToText = (value) => {
-    setText((text) => [...text, value+" "]);
+    setText((text) => [...text, value]);
   };
-  
   const calculatorResult = () => {
-    setResult(eval(text.join("")).toString());
+    setResult(CalPostfix);
   };
-  
+
   const clearAll = () => {
     setText((text) => "");
     setResult((result) => "");
   };
 
+  const precedence = (opertor) => {
+    switch (opertor) {
+      case "+":
+      case "-": return 1;
+      case "*":
+      case "/": return 2;
+      default:
+        return 0;
+    }
+  };
+
+  function InfixtoPostfix() {
+    let postfix ="";
+    for (let i = 0; i < text.length; i++) {
+      if (["1", "2", "3", "4", "5", "6", "7", "8", "9"].includes(text[i])) {
+        postfix += text[i];
+      } else if (["+", "-", "*", "/"].includes(text[i])) {
+        while (!stack.length == "" && precedence(text[i]) <= precedence(stack[stack.length - 1])) {
+          postfix += stack.pop();
+        }
+        stack.push(text);
+      } while (!stack.length == "") {
+        stack.pop();
+      }
+
+    }
+  }
+
+  function CalPostfix(postfix) {
+    postfix = InfixtoPostfix.toString();
+    let str =postfix.split('').join('');
+    str.split('').forEach(s => {
+
+      if (["1", "2", "3", "4", "5", "6", "7", "8", "9"].includes(s.trim())) {
+
+        stack.push(+s);
+      }
+      else if (["+", "-", "*", "/"].includes(s.trim())) {
+
+        let x = stack.pop();
+        let y = stack.pop();
+        switch (s) {
+          case "+": y = y+x;
+            break;
+          case "-": y = y-x;
+            break;
+          case "*": y = y*x;
+            break;
+          case "/": y = y/x;
+            break;
+          case "%": y = y%x;
+            break;
+
+        }
+        stack.push(y);
+
+      }
+    })
+
+
+    return stack.pop();
+  }
+
   return (
     <div className="Wrapper">
       <div className="Cal">
-        <Input text={text} result={result}/>
+        <Input text={text} result={result} />
+
         <div className="row">
-          <Button symbols="1" handleClick={addToText}/>
-          <Button symbols="2" handleClick={addToText}/>
-          <Button symbols="3" handleClick={addToText}/>
-          <Button symbols="+" handleClick={addToText}/>
+          {[1, 2, 3, "+"].map((i) => (
+            <Button symbols={i} handleClick={addToText} />
+          ))}
         </div>
         <div className="row">
-          <Button symbols="4" handleClick={addToText}/>
-          <Button symbols="5" handleClick={addToText}/>
-          <Button symbols="6" handleClick={addToText}/>
-          <Button symbols="-" handleClick={addToText}/>
+          {[4, 5, 6, "-"].map((i) => (
+            <Button symbols={i} handleClick={addToText} />
+          ))}
         </div>
         <div className="row">
-          <Button symbols="7" handleClick={addToText}/>
-          <Button symbols="8" handleClick={addToText}/>
-          <Button symbols="9" handleClick={addToText}/>
-          <Button symbols="*" handleClick={addToText}/>
+          {[7, 8, 9, "*"].map((i) => (
+            <Button symbols={i} handleClick={addToText} />
+          ))}
         </div>
         <div className="row">
-          <Button symbols="" handleClick={addToText}/>
-          <Button symbols="AC" handleClick={clearAll}/>
-          <Button symbols="=" handleClick={calculatorResult}/>
-          <Button symbols="/" handleClick={addToText}/>
+          <Button />
+          <Button symbols="AC" handleClick={clearAll} />
+          <Button symbols="=" handleClick={calculatorResult} />
+          <Button symbols="/" handleClick={addToText} />
         </div>
-        
+
       </div>
 
     </div>
