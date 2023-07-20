@@ -12,15 +12,15 @@ function FunctionPrePostfix(prefix){
       let x = stack.pop();
       let y = stack.pop();
       switch (s) {
-        case "+": y += x;
+        case "+": y = x+y;
           break;
-        case "-": y -= x;
+        case "-": y = x-y;
           break;
-        case "*": y *= x;
+        case "*": y = x*y;
           break;
-        case "/": y /= x;
+        case "/": y = x/y;
           break;
-        case "%": y %= x;
+        case "%": y = x%y;
           break;
 
       }
