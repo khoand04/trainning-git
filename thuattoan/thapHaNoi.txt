@@ -1,0 +1,9 @@
+function ThapHaNoi(n, s, p, t) {
+  if (n == 1) {
+    console.log(n + " " + s + "-" + t);
+    return;
+  }
+  ThapHaNoi((n - 1), s, t, p);
+  console.log(n + " " + s + "-" + t);
+  ThapHaNoi((n - 1), p, s, t);
+}
