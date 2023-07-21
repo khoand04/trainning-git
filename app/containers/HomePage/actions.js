@@ -15,7 +15,13 @@
  *    }
  */
 
-import { CHANGE_USERNAME } from './constants';
+import {
+  CHANGE_USERNAME,
+  LOAD_EXP,
+  CAL_EXPRESSION,
+  LOAD_BUTTON,
+  LOAD_CLEAR,
+} from './constants';
 
 /**
  * Changes the input field of the form
@@ -28,5 +34,30 @@ export function changeUsername(username) {
   return {
     type: CHANGE_USERNAME,
     username,
+  };
+}
+export function loadExp(str) {
+  return {
+    type: LOAD_EXP,
+    str,
+  };
+}
+export function loadButton(button) {
+  return {
+    type: LOAD_BUTTON,
+    button,
+  };
+}
+
+export function calExpression(expression) {
+  return {
+    type: CAL_EXPRESSION,
+    expression,
+  };
+}
+export function loadClear(clear) {
+  return {
+    type: LOAD_CLEAR,
+    clear,
   };
 }

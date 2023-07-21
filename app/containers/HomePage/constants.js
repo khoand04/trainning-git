@@ -10,3 +10,7 @@
  */
 
 export const CHANGE_USERNAME = 'boilerplate/Home/CHANGE_USERNAME';
+export const LOAD_BUTTON = 'boilerplate/Home/LOAD_BUTTON';
+export const LOAD_EXP = 'boilerplate/Home/LOAD_EXP';
+export const CAL_EXPRESSION = 'boilerplate/Home/CAL_EXPRESSION';
+export const LOAD_CLEAR = 'boilerplate/Home/LOAD_CLEAR';
