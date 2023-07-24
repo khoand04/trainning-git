@@ -136,6 +136,7 @@ export function HomePage({
               onClick={() => {
                 onCalExp(calculatorResult(text));
               }}
+              
             >
               =
             </button>
