@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0003102_seafood-peach_300.png",
+    "title": "Pizza Hải Sản Đào",
+    "des": "Tôm, Đào hoà quyện bùng nổ cùng sốt Thousand Island",
+    "price": "169.000đ"
+  },
+  {
+    "id": 2,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002624_seafood-pesto_300.png",
+    "title": "Pizza Hải Sản Pesto Xanh",
+    "des": "Tôm, thanh cua, mực và bông cải xanh tươi ngon trên nền sốt Pesto Xanh",
+    "price": "169.000đ"
+  },
+  {
+    "id": 3,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002216_shrimp-ctl_300.png",
+    "title": "Pizza Tôm Cocktail",
+    "des": "Tôm với nấm, dứa, cà chua và sốt Thousand Island.",
+    "price": "149.000đ"
+  },
+  {
+    "id": 4,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002212_sf-cocktail_300.png",
+    "title": "Pizza Hải Sản Cocktail",
+    "des": "Tôm, cua, giăm bông,... với sốt Thousand Island",
+    "price": "149.000đ"
+  },
+  {
+    "id": 5,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002211_tropical-sf_300.png",
+    "title": "Pizza Hải Sản Nhiệt Đới",
+    "des": "Tôm, nghêu, mực cua, dứa với sốt Thousand Island",
+    "price": "149.000đ"
+  },
+  {
+    "id": 6,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002214_sf-deluxe_300.png",
+    "title": "Pizza Hải Sản Cao Cấp",
+    "des": "Tôm, cua, mực và nghêu với sốt Marinara",
+    "price": "149.000đ"
+  },
+  {
+    "id": 7,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002218_sup-deluxe_300.png",
+    "title": "Pizza 5 Loại Thịt Đặc Biệt Và Rau Củ",
+    "des": "Xúc xích bò, giăm bông, thịt xông khói,...và cả thế giới rau phong phú.",
+    "price": "139.000đ"
+  },
+  {
+    "id": 8,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0003536_aloha_300.png",
+    "title": "Pizza Aloha",
+    "des": "Thịt nguội, xúc xích tiêu cay và dứa hòa quyện với sốt Thousand Island",
+    "price": "139.000đ"
+  },
+  {
+    "id": 9,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002224_hawaii_300.png",
+    "title": "Pizza Hawaiian",
+    "des": "Giăm bông, thịt muối và dứa",
+    "price": "119.000đ"
+  },
+  {
+    "id": 10,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002229_veg_300.png",
+    "title": "Pizza Rau Củ",
+    "des": "Hành, ớt chuông, nấm, dứa, cà chua",
+    "price": "119.000đ"
+  }
+]

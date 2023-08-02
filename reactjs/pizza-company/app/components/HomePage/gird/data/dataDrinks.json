@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002573_pepsi-lime-can_300.png",
+    "title": "Pepsi Black Lime Lon",
+    "des": "",
+    "price": "29000"
+  },
+  {
+    "id": 2,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002420_pepsi-black-can_300.jpeg",
+    "title": "Pepsi Black Lon",
+    "des": "",
+    "price": "29000"
+  },
+  {
+    "id": 3,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002365_pepsi-can_300.jpeg",
+    "title": "Pepsi Lon",
+    "des": "",
+    "price": "29000"
+  },
+  {
+    "id": 4,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002702_mirinda-soda-kem-can_300.png",
+    "title": "Mirinda Soda Kem Lon",
+    "des": "",
+    "price": "29000"
+  },
+  {
+    "id": 5,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002436_heineken_300.png",
+    "title": "Bia Heineken",
+    "des": "",
+    "price": "49000"
+  },
+  {
+    "id": 6,
+    "img": "https://thepizzacompany.vn/images/thumbs/000/0002434_333-beer_300.png",
+    "title": "Gà Giòn Xốt Hàn - Cay (2 miếng)",
+    "des": "",
+    "price": "49000"
+  }
+]
