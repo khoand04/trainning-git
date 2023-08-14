@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, MobileStepper, Paper, useTheme } from '@mui/material';
+import { Box, MobileStepper, Pagination, Paper, useTheme } from '@mui/material';
 import Button from '@mui/material/Button';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
@@ -64,12 +64,23 @@ export const Banner = () => {
 
   return (
     <div>
-      <Box sx={{ width: '100%', height: 520, flexGrow: 1, marginBottom: 3 }}>
+      <Box
+        sx={{
+          width: '100%',
+          flexGrow: 1,
+          height: {
+            sm: '400px',
+            lg: '500px',
+            xs: '200px',
+          },
+          marginBottom: 3,
+          background: 'cover',
+        }}
+      >
         <Paper
           square
           elevation={0}
           sx={{
-            display: 'flex',
             alignItems: 'center',
             height: 50,
             pl: 2,
@@ -88,12 +99,13 @@ export const Banner = () => {
                 <Box
                   component="img"
                   sx={{
-                    height: 450,
-                    display: 'block',
+                    display: 'flex',
                     maxWidth: '100%',
                     overflow: 'hidden',
-                    width: '100%',
+                    height: 'auto',
                     borderRadius: '15px',
+                    background: 'cover',
+                    objectFit: 'contain',
                   }}
                   src={step.imgPath}
                   alt={step.label}
@@ -102,9 +114,9 @@ export const Banner = () => {
             </div>
           ))}
         </AutoPlaySwipeableViews>
-        <Box sx={{ marginTop: '-250px' }}>
+        <Box sx={{ marginTop: { lg: '-250px' } }}>
           <MobileStepper
-            variant=""
+            variant="dots"
             steps={maxSteps}
             position="static"
             activeStep={activeStep}

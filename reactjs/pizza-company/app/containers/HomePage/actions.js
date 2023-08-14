@@ -15,7 +15,16 @@
  *    }
  */
 
-import { CHANGE_USERNAME } from './constants';
+import {
+  CHANGE_USERNAME,
+  GET_ALL_PRODUCT,
+  GET_NUMBER_CART,
+  ADD_TO_CART,
+  UPDATE_CART,
+  DELETE_CART,
+  INCREASE_QUANTITY,
+  DECREASE_QUANTITY,
+} from './constants';
 
 /**
  * Changes the input field of the form
@@ -28,5 +37,11 @@ export function changeUsername(username) {
   return {
     type: CHANGE_USERNAME,
     username,
+  };
+}
+export function getAllProduct(payload) {
+  return {
+    type: GET_ALL_PRODUCT,
+    payload,
   };
 }

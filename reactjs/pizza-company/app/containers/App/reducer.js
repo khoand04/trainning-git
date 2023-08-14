@@ -12,8 +12,10 @@ import {
   LOAD_REPOS_SUCCESS,
   LOAD_REPOS,
   LOAD_REPOS_ERROR,
-  CHECK_NUMBERPHONE,
-  CHECK_PASSWORD,
+  ADD_TO_CART,
+  DELETE_CART,
+  GET_NUMBER_CART,
+  INCREASE_QUANTITY,
 } from './constants';
 
 // The initial state of the App
@@ -24,8 +26,9 @@ export const initialState = {
   userData: {
     repositories: false,
   },
-  numberPhone: '',
-  password: '',
+  cartAr: [],
+  numberCart: 0,
+  totalPrice: 0,
 };
 
 /* eslint-disable default-case, no-param-reassign */
@@ -48,12 +51,52 @@ const appReducer = (state = initialState, action) =>
         draft.error = action.error;
         draft.loading = false;
         break;
-      case CHECK_NUMBERPHONE:
-        draft.numberPhone = action.numberPhone;
+      case ADD_TO_CART:
+        {
+          const itemIndex = state.cartAr.findIndex(
+            item => item.title === action.product.title,
+          );
+
+          if (itemIndex >= 0) {
+            state.cartAr[itemIndex].quantity += 1;
+          } else {
+            const cartNew = {
+              id: action.product.id,
+              quantity: 1,
+              title: action.product.title,
+              img: action.product.img,
+              price: action.product.price,
+              totalPrice: action.product.price,
+            };
+            return Object.assign({}, state, {
+              cartAr: state.cartAr.concat(cartNew),
+              numberCart: state.numberCart + 1,
+            });
+          }
+        }
         break;
-      case CHECK_PASSWORD:
-        draft.pasword = action.pasword;
+      case GET_NUMBER_CART:
+        return {
+          ...state,
+        };
+
+      case DELETE_CART: {
+        state.cartAr = state.cartAr.filter(
+          x => x.title !== action.product.title,
+        );
         break;
+      }
+      case INCREASE_QUANTITY:
+        return {
+          ...state,
+          cartAr: state.cartAr.map(item => ({
+            title: item.title,
+            inCart:
+              item.title === action.product.title
+                ? item.inCart + action.product.quantity
+                : item.inCart,
+          })),
+        };
     }
   });
 

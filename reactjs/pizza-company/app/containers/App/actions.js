@@ -19,8 +19,10 @@ import {
   LOAD_REPOS,
   LOAD_REPOS_SUCCESS,
   LOAD_REPOS_ERROR,
-  CHECK_NUMBERPHONE,
-  CHECK_PASSWORD,
+  ADD_TO_CART,
+  DELETE_CART,
+  GET_NUMBER_CART,
+  INCREASE_QUANTITY,
 } from './constants';
 
 /**
@@ -63,15 +65,30 @@ export function repoLoadingError(error) {
     error,
   };
 }
-export function checkNumberPhone(numberPhone) {
+
+export const addToCart = product => {
   return {
-    type: CHECK_NUMBERPHONE,
-    numberPhone,
+    type: ADD_TO_CART,
+    product,
   };
-}
-export function checkPassword(password) {
+};
+
+export const deleteCart = product => {
   return {
-    type: CHECK_PASSWORD,
-    password,
+    type: DELETE_CART,
+    product,
+  };
+};
+
+export const getNumberCart = () => {
+  return {
+    type: GET_NUMBER_CART,
+  };
+};
+
+export function increaseQuantity(payload) {
+  return {
+    type: INCREASE_QUANTITY,
+    payload,
   };
 }

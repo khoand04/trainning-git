@@ -9,8 +9,6 @@ const selectGlobal = state => state.global || initialState;
 
 const selectRouter = state => state.router;
 
-
-
 const makeSelectCurrentUser = () =>
   createSelector(
     selectGlobal,
@@ -40,15 +38,17 @@ const makeSelectLocation = () =>
     selectRouter,
     routerState => routerState.location,
   );
-const makeSelectNumberPhone = () =>
+
+const makeSelectProductCart = () =>
   createSelector(
     selectGlobal,
-    homeState => homeState.numberPhone,
+    globalState => globalState.cartAr,
   );
-const makeSelectPassword = () =>
+
+const makeSelectNumberCart = () =>
   createSelector(
     selectGlobal,
-    homeState => homeState.password,
+    globalState => globalState.numberCart,
   );
 export {
   selectGlobal,
@@ -57,6 +57,6 @@ export {
   makeSelectError,
   makeSelectRepos,
   makeSelectLocation,
-  makeSelectNumberPhone,
-  makeSelectPassword,
+  makeSelectProductCart,
+  makeSelectNumberCart,
 };

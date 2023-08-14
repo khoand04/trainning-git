@@ -12,5 +12,7 @@
 export const LOAD_REPOS = 'boilerplate/App/LOAD_REPOS';
 export const LOAD_REPOS_SUCCESS = 'boilerplate/App/LOAD_REPOS_SUCCESS';
 export const LOAD_REPOS_ERROR = 'boilerplate/App/LOAD_REPOS_ERROR';
-export const CHECK_NUMBERPHONE = 'boilerplate/App/CHECK_NUMBERPHONE';
-export const CHECK_PASSWORD = 'boilerplate/App/CHECK_PASSWORD';
+export const GET_NUMBER_CART = 'boilerplate/App/GET_NUMBER_CART';
+export const ADD_TO_CART = 'boilerplate/App/ADD_TO_CART';
+export const DELETE_CART = 'boilerplate/App/DELETE_CART';
+export const INCREASE_QUANTITY = 'boilerplate/App/INCREASE_QUANTITY';

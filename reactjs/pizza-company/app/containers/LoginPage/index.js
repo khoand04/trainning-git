@@ -27,7 +27,7 @@ import {
 } from '@mui/material';
 import HomePage from '../HomePage';
 
-export function LoginPage({ checkNumberPhone, checkPassword }) {
+export function LoginPage() {
   useEffect(() => {}, []);
   const rnPhone = useRef(null);
   const rpassword = useRef(null);
@@ -152,15 +152,11 @@ export function LoginPage({ checkNumberPhone, checkPassword }) {
   );
 }
 LoginPage.propTypes = {
-  checkNumberPhone: PropTypes.string,
-  checkPassword: PropTypes.string,
 };
 
 const mapStateToProps = createStructuredSelector({
   loading: makeSelectLoading(),
   error: makeSelectError(),
-  numberPhone: makeSelectNumberPhone(),
-  password: makeSelectPassword(),
 });
 
 export function mapDispatchToProps(dispatch) {
