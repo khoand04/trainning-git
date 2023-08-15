@@ -7,7 +7,6 @@ import Typography from '@mui/material/Typography';
 import { Box, Button, Grid } from '@mui/material';
 import DialogCart from '../../DialogCart';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { useState } from 'react';
 
 export const ItemCard = products => {
   const [open, setOpen] = React.useState(false);
@@ -125,7 +124,5 @@ export const ItemCard = products => {
     </Grid>
   );
 };
-
-
 
 export default ItemCard;
