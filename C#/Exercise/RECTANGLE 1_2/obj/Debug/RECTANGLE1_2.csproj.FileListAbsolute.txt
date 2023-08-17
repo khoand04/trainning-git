@@ -1,0 +1,6 @@
+D:\Code\C#\Exercise\RECTANGLE 1_2\bin\Debug\RECTANGLE 1_2.exe.config
+D:\Code\C#\Exercise\RECTANGLE 1_2\bin\Debug\RECTANGLE 1_2.exe
+D:\Code\C#\Exercise\RECTANGLE 1_2\bin\Debug\RECTANGLE 1_2.pdb
+D:\Code\C#\Exercise\RECTANGLE 1_2\obj\Debug\RECTANGLE1_2.csproj.CoreCompileInputs.cache
+D:\Code\C#\Exercise\RECTANGLE 1_2\obj\Debug\RECTANGLE 1_2.exe
+D:\Code\C#\Exercise\RECTANGLE 1_2\obj\Debug\RECTANGLE 1_2.pdb
