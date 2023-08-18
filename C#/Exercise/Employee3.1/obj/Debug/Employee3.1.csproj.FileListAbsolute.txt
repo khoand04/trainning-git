@@ -1,0 +1,7 @@
+D:\Code\C#\Exercise\Employee3.1\bin\Debug\Employee3.1.exe.config
+D:\Code\C#\Exercise\Employee3.1\bin\Debug\Employee3.1.exe
+D:\Code\C#\Exercise\Employee3.1\bin\Debug\Employee3.1.pdb
+D:\Code\C#\Exercise\Employee3.1\obj\Debug\Employee3.1.csprojAssemblyReference.cache
+D:\Code\C#\Exercise\Employee3.1\obj\Debug\Employee3.1.csproj.CoreCompileInputs.cache
+D:\Code\C#\Exercise\Employee3.1\obj\Debug\Employee3.1.exe
+D:\Code\C#\Exercise\Employee3.1\obj\Debug\Employee3.1.pdb

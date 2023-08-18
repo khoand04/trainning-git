@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import {
   Box,
   Button,
@@ -19,7 +19,6 @@ import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { increaseQuantity, deleteCart } from '../../containers/App/actions';
-import { memo } from 'react';
 import PropTypes from 'prop-types';
 export const ItemCart = props => {
   const { onIncreaseQuantity, onDeleteProductCart } = props;

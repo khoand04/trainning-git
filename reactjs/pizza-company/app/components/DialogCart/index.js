@@ -17,7 +17,6 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { addToCart } from '../../containers/App/actions';
 import { makeAddToProduct } from '../../containers/App/selectors';
-
 export function DialogCart(props) {
   const { open, onClose, submitData, onAddtoCart } = props;
   const [fullWidth, setFullWidth] = React.useState(true);

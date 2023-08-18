@@ -1,20 +1,12 @@
 /* eslint-disable no-alert */
-import React, { useEffect, memo, useState, useRef } from 'react';
-
-import PropTypes from 'prop-types';
+import React, { memo } from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { createStructuredSelector } from 'reselect';
-import {
-  makeSelectRepos,
-  makeSelectLoading,
-  makeSelectError,
-} from 'containers/App/selectors';
-import ItemCart from '../../components/ItemCart';
-import { productCart } from '../App/actions';
-import { makeSelectProductCart } from '../App/selectors';
 import { Box, Button, Container, Typography } from '@mui/material';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
+import ItemCart from '../../components/ItemCart';
+import { makeSelectProductCart } from '../App/selectors';
 
 export function CartPage({ items }) {
   return (
@@ -33,18 +25,13 @@ export function CartPage({ items }) {
         />
       ))}
       <Box sx={{ float: 'right', marginTop: 5 }}>
-        <Button
-          variant="contained"
-          component={Link}
-          to={'/'}
-          sx={{ margin: 2 }}
-        >
+        <Button variant="contained" component={Link} to="/" sx={{ margin: 2 }}>
           Tiếp tục mua hàng
         </Button>
         <Button
           variant="contained"
           component={Link}
-          to={'/checkout'}
+          to="/checkout"
           sx={{ margin: 2 }}
         >
           Thanh toán

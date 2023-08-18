@@ -32,9 +32,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useRef } from 'react';
 import { useState } from 'react';
-import { getCartProduct } from '../../components/DialogCart/cartService';
 import { makeSelectProductCart } from '../App/selectors';
-
 const key = 'home';
 
 export function HomePage({
@@ -53,7 +51,6 @@ export function HomePage({
 
   const showMoreItems = () => {
     setVisible(prevValue => prevValue + 4);
-    console.log(getCartProduct());
   };
 
   const settings = {
