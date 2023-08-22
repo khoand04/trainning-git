@@ -1,0 +1,7 @@
+D:\Code\Example\DelegatEx\bin\Debug\DelegatEx.exe.config
+D:\Code\Example\DelegatEx\bin\Debug\DelegatEx.exe
+D:\Code\Example\DelegatEx\bin\Debug\DelegatEx.pdb
+D:\Code\Example\DelegatEx\obj\Debug\DelegatEx.csprojAssemblyReference.cache
+D:\Code\Example\DelegatEx\obj\Debug\DelegatEx.csproj.CoreCompileInputs.cache
+D:\Code\Example\DelegatEx\obj\Debug\DelegatEx.exe
+D:\Code\Example\DelegatEx\obj\Debug\DelegatEx.pdb

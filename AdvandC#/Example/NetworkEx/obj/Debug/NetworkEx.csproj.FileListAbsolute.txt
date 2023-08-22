@@ -1,0 +1,7 @@
+D:\Code\Example\NetworkEx\obj\Debug\NetworkEx.csprojAssemblyReference.cache
+D:\Code\Example\NetworkEx\obj\Debug\NetworkEx.csproj.CoreCompileInputs.cache
+D:\Code\Example\NetworkEx\bin\Debug\NetworkEx.exe.config
+D:\Code\Example\NetworkEx\bin\Debug\NetworkEx.exe
+D:\Code\Example\NetworkEx\bin\Debug\NetworkEx.pdb
+D:\Code\Example\NetworkEx\obj\Debug\NetworkEx.exe
+D:\Code\Example\NetworkEx\obj\Debug\NetworkEx.pdb
