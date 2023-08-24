@@ -1,0 +1,6 @@
+D:\Code\C#\ThreadEx\ThreadDeadlock\bin\Debug\ThreadDeadlock.exe.config
+D:\Code\C#\ThreadEx\ThreadDeadlock\bin\Debug\ThreadDeadlock.exe
+D:\Code\C#\ThreadEx\ThreadDeadlock\bin\Debug\ThreadDeadlock.pdb
+D:\Code\C#\ThreadEx\ThreadDeadlock\obj\Debug\ThreadDeadlock.csproj.CoreCompileInputs.cache
+D:\Code\C#\ThreadEx\ThreadDeadlock\obj\Debug\ThreadDeadlock.exe
+D:\Code\C#\ThreadEx\ThreadDeadlock\obj\Debug\ThreadDeadlock.pdb

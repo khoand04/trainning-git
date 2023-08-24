@@ -1,0 +1,7 @@
+D:\Code\C#\ThreadEx\ThreadEx\obj\Debug\ThreadEx.csprojAssemblyReference.cache
+D:\Code\C#\ThreadEx\ThreadEx\obj\Debug\ThreadEx.csproj.CoreCompileInputs.cache
+D:\Code\C#\ThreadEx\ThreadEx\bin\Debug\ThreadEx.exe.config
+D:\Code\C#\ThreadEx\ThreadEx\bin\Debug\ThreadEx.exe
+D:\Code\C#\ThreadEx\ThreadEx\bin\Debug\ThreadEx.pdb
+D:\Code\C#\ThreadEx\ThreadEx\obj\Debug\ThreadEx.exe
+D:\Code\C#\ThreadEx\ThreadEx\obj\Debug\ThreadEx.pdb
