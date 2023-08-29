@@ -1,0 +1,6 @@
+D:\Code\C#\ThreadEx\ThreadLocking\bin\Debug\ThreadLocking.exe.config
+D:\Code\C#\ThreadEx\ThreadLocking\bin\Debug\ThreadLocking.exe
+D:\Code\C#\ThreadEx\ThreadLocking\bin\Debug\ThreadLocking.pdb
+D:\Code\C#\ThreadEx\ThreadLocking\obj\Debug\ThreadLocking.csproj.CoreCompileInputs.cache
+D:\Code\C#\ThreadEx\ThreadLocking\obj\Debug\ThreadLocking.exe
+D:\Code\C#\ThreadEx\ThreadLocking\obj\Debug\ThreadLocking.pdb

@@ -1,0 +1,6 @@
+D:\Code\C#\NetworkEx\TcpClientEx\bin\Debug\TcpClientEx.exe.config
+D:\Code\C#\NetworkEx\TcpClientEx\bin\Debug\TcpClientEx.exe
+D:\Code\C#\NetworkEx\TcpClientEx\bin\Debug\TcpClientEx.pdb
+D:\Code\C#\NetworkEx\TcpClientEx\obj\Debug\TcpClientEx.csproj.CoreCompileInputs.cache
+D:\Code\C#\NetworkEx\TcpClientEx\obj\Debug\TcpClientEx.exe
+D:\Code\C#\NetworkEx\TcpClientEx\obj\Debug\TcpClientEx.pdb

@@ -1,0 +1,7 @@
+D:\Code\Example\ExLinq\bin\Debug\ExLinq.exe.config
+D:\Code\Example\ExLinq\bin\Debug\ExLinq.exe
+D:\Code\Example\ExLinq\bin\Debug\ExLinq.pdb
+D:\Code\Example\ExLinq\obj\Debug\ExLinq.csprojAssemblyReference.cache
+D:\Code\Example\ExLinq\obj\Debug\ExLinq.csproj.CoreCompileInputs.cache
+D:\Code\Example\ExLinq\obj\Debug\ExLinq.exe
+D:\Code\Example\ExLinq\obj\Debug\ExLinq.pdb

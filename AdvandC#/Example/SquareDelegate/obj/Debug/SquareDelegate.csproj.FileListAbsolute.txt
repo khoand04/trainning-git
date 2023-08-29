@@ -1,0 +1,7 @@
+D:\Code\Example\SquareDelegate\bin\Debug\SquareDelegate.exe.config
+D:\Code\Example\SquareDelegate\bin\Debug\SquareDelegate.exe
+D:\Code\Example\SquareDelegate\bin\Debug\SquareDelegate.pdb
+D:\Code\Example\SquareDelegate\obj\Debug\SquareDelegate.csprojAssemblyReference.cache
+D:\Code\Example\SquareDelegate\obj\Debug\SquareDelegate.csproj.CoreCompileInputs.cache
+D:\Code\Example\SquareDelegate\obj\Debug\SquareDelegate.exe
+D:\Code\Example\SquareDelegate\obj\Debug\SquareDelegate.pdb

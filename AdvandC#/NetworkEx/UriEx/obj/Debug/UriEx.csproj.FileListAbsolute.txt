@@ -1,0 +1,7 @@
+D:\Code\C#\NetworkEx\UriEx\bin\Debug\UriEx.exe.config
+D:\Code\C#\NetworkEx\UriEx\bin\Debug\UriEx.exe
+D:\Code\C#\NetworkEx\UriEx\bin\Debug\UriEx.pdb
+D:\Code\C#\NetworkEx\UriEx\obj\Debug\UriEx.csprojAssemblyReference.cache
+D:\Code\C#\NetworkEx\UriEx\obj\Debug\UriEx.csproj.CoreCompileInputs.cache
+D:\Code\C#\NetworkEx\UriEx\obj\Debug\UriEx.exe
+D:\Code\C#\NetworkEx\UriEx\obj\Debug\UriEx.pdb

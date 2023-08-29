@@ -1,0 +1,7 @@
+D:\Code\Example\FileStreamEx\bin\Debug\FileStreamEx.exe.config
+D:\Code\Example\FileStreamEx\bin\Debug\FileStreamEx.exe
+D:\Code\Example\FileStreamEx\bin\Debug\FileStreamEx.pdb
+D:\Code\Example\FileStreamEx\obj\Debug\FileStreamEx.csprojAssemblyReference.cache
+D:\Code\Example\FileStreamEx\obj\Debug\FileStreamEx.csproj.CoreCompileInputs.cache
+D:\Code\Example\FileStreamEx\obj\Debug\FileStreamEx.exe
+D:\Code\Example\FileStreamEx\obj\Debug\FileStreamEx.pdb
